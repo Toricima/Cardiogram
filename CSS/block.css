@@ -1,0 +1,41 @@
+﻿.block-1{
+    height: 600px;
+}
+
+.block-2{
+    height: 400px;
+}
+
+.block-3{
+    height: 200px;
+}
+
+.block-4{
+    height: 100px;
+}
+
+.block-5{
+    height: 50px;
+}
+
+.block-6{
+    height: 25px;
+}
+
+.grid-12-col-4 {
+    width: 33%;
+    float: left;
+}
+
+.grid-12-col-8 {
+    width: 67%;
+    float: left;
+}
+
+.grid-12-col-12 {
+    width: 100%;
+}
+
+.clear{
+   clear:both;
+}

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Eric</Name>
+    <ProjectGuid>01e33741-e606-4cb4-84b4-12b7dc6e0db9</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Eric</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>Eric</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="chart.php" />
+    <Compile Include="classes\Activity.php" />
+    <Compile Include="classes\Convertor.php" />
+    <Compile Include="classes\DB.php" />
+    <Compile Include="classes\File.php" />
+    <Compile Include="classes\Folder.php" />
+    <Compile Include="classes\Hash.php" />
+    <Compile Include="classes\JsonFormat.php" />
+    <Compile Include="classes\JsonReader.php" />
+    <Compile Include="classes\Lap.php" />
+    <Compile Include="classes\LapArray.php" />
+    <Compile Include="classes\Logger.php" />
+    <Compile Include="classes\Redirect.php" />
+    <Compile Include="classes\SessionManager.php" />
+    <Compile Include="classes\Time.php" />
+    <Compile Include="classes\Trackpoint.php" />
+    <Compile Include="classes\User.php" />
+    <Compile Include="classes\XmlParser.php" />
+    <Compile Include="demo.php" />
+    <Compile Include="inlog.php" />
+    <Compile Include="uploadfile.php" />
+    <Compile Include="home.php" />
+    <Compile Include="index.php" />
+    <Compile Include="register.php" />
+    <Compile Include="test.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="classes\" />
+    <Folder Include="JS\" />
+    <Folder Include="inc\" />
+    <Folder Include="File\" />
+    <Folder Include="CSS\" />
+    <Folder Include="lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\block.css" />
+    <Content Include="CSS\theme.css" />
+    <Content Include="File\results.json" />
+    <Content Include="File\results2.json" />
+    <Content Include="File\xml.tcx" />
+    <Content Include="JS\graph.js" />
+    <Content Include="JS\jquery-2.1.1.min.js" />
+  </ItemGroup>
+</Project>

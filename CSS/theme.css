@@ -1,0 +1,91 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1,h2 { font-weight: 400;}
+
+h1 { 
+    font-size: 56px;
+    letter-spacing: -5px;
+}
+h2 {
+     font-size: 24px;
+     line-height: 24px;
+     margin:0px;
+}
+p  { font-size: 18px;}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+}
+
+#register-window{
+    background-color: #efefef;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#register-window h1{
+    top: 15px;
+    color: #b63939;
+    text-align: center;
+    position: relative;
+}
+
+#register-window form{
+    margin-left: 33px;
+}
+
+#one input:first-child{
+    margin-right: 25px;
+}
+
+#register-window input{
+    background-color: #e7e7e7;
+    height: 35px;
+    border:none;
+    padding-left:20px;
+    margin-bottom: 15px;
+}
+
+#one input{
+    width: 230px;
+}
+
+#two input{
+    width: 510px;
+}
+
+#two input[type='checkbox']{
+    width: 0px;
+    padding:0px;
+}
+
+#two label {
+    position: relative;
+    top: -10px;
+    left: 2px;
+}
+
+.btn {
+    position: relative;
+    left: 105px;
+    bottom: -15px;
+    height: 50px;
+    width: 350px;
+    background-color: #b63939;
+    color: white;
+    font-size: 20px;
+    border: none;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #b21d1d;
+    transition: .5s;
+}
